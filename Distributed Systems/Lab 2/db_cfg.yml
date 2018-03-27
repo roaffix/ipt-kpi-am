@@ -1,0 +1,10 @@
+fly_booking:
+  host:        localhost
+  dbname:      fly_booking
+  user:        postgres
+  password:    QWEasd123@
+hotel_booking:
+  host:        localhost
+  dbname:      hotel_booking
+  user:        postgres
+  password:    QWEasd123@
