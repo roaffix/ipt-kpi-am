@@ -13,14 +13,14 @@ Install PostgreSQL [[source](https://www.digitalocean.com/community/tutorials/ho
 $ sudo apt-get install postgresql postgresql-contrib
 ```
 Install python requirements:
-```python
+```sh
 $ pip install -r requirements.txt
 ```
 Run script:
-```python
+```sh
 $ python dtc.py
 ```
-#### [Optional] Install pgAdmin4:
+#### [Optional] Install pgAdmin4 [[source](https://askubuntu.com/questions/831262/how-to-install-pgadmin-4-in-desktop-mode-on-ubuntu)]:
 Set up environment
 ```sh
 $ python3 -m venv /path/to/venv/
@@ -32,7 +32,7 @@ Create and configure local file
 gedit /path/to/venv/lib/python3.x/site-packages/pgadmin4/config_local.py
 ```
 Write:
-```rtf
+```
 import os
 DATA_DIR = os.path.realpath(os.path.expanduser(u'/path/to/venv/venv-name/'))
 LOG_FILE = os.path.join(DATA_DIR, 'pgadmin4.log')
