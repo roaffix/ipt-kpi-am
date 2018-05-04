@@ -100,3 +100,5 @@ ENV/
 # mypy
 .mypy_cache/
 
+# opened .docx files locks
+.~lock.*
