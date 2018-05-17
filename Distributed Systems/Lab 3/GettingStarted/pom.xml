@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <hazelcast-client>
+        <group>
+            <name>dev</name>
+        </group>
+    </hazelcast-client>
+
+    <hazelcast-client>
+        <network>
+            <cluster-members>
+                <address>192.168.0.104:5701</address>
+            </cluster-members>
+        </network>
+    </hazelcast-client>
+
+    <hazelcast>
+        <map name="default">
+            <backup-count>0</backup-count>
+            <async-backup-count>0</async-backup-count>
+            <read-backup-data>true</read-backup-data>
+        </map>
+    </hazelcast>
+
+</project>
