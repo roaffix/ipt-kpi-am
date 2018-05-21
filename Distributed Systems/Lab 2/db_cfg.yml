@@ -8,3 +8,8 @@ hotel_booking:
   dbname:      hotel_booking
   user:        postgres
   password:    QWEasd123@
+cash:
+  host:        localhost
+  dbname:      cash
+  user:        postgres
+  password:    QWEasd123@
